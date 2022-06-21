@@ -2,7 +2,7 @@
 # Project Name
 First capstone project in microverse 
 # Project Link
-https://alzubair98.github.io/code-review/
+https://alzubair98.github.io/first-capstone-project/
 
 > Description the project.
 this is the first capstone project where i will build a university portofilo
@@ -15,7 +15,7 @@ this is the first capstone project where i will build a university portofilo
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://alzubair98.github.io/code-review/)
+[Live Demo Link](https://alzubair98.github.io/first-capstone-project/)
 
 To get a local copy up and running follow these simple example steps.
 
