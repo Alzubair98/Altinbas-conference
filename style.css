@@ -1,6 +1,5 @@
 body {
   margin: 0%;
-  height: 100%;
 }
 
 body.active{
@@ -162,10 +161,9 @@ ul{
   width: 100%;
   height: 700px;
   position: absolute;
-  z-index: 1000;
   background-color: #272a31;
   transition: all 0.99s;
-  right: -1000px;
+  right: -400px;
 }
 
 .hidden-menu.active{
