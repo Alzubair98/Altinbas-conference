@@ -105,6 +105,7 @@ a {
   font-weight: 300;
   color: #ec5242;
   margin-bottom: 0%;
+  font-size: 20px;
 }
 
 .second-text {
@@ -136,13 +137,13 @@ a {
   font-family: "COCOGOOSE", sans-serif;
   font-weight: 500;
   font-size: 25px;
-  color: #272a31;
+  color: #8d99ae;
 }
 
 .place-paragraph {
   font-weight: 500;
   font-size: 18px;
-  color: #272a31;
+  color: #8d99ae;
 }
 
 /* mobile-second-page */
@@ -201,6 +202,26 @@ hr {
   width: 60%;
   margin-bottom: 0%;
   font-weight: 400;
+}
+
+.first-descrption{
+  margin-left: 6%;
+}
+
+.second-descrption{
+  margin-left: 4%;
+}
+
+.third-descrption{
+  margin-left: -1%;
+}
+
+.forth-descrption{
+  margin-left: 6%;
+}
+
+.foruth-program{
+  margin-left: 5%;
 }
 
 .second-page-button {
@@ -289,4 +310,169 @@ hr {
   font-style: normal;
   font-family: 'Lato', sans-serif;
   margin: 1% 0% 1% 0%;
+}
+
+/* fourth-page */
+
+.mobile-fourth-section{
+  width: 100%;
+  height: 500px;
+  background-color: #272a31;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.google-img{
+  width: 25%;
+  margin-top: 10%;
+}
+
+.microsoft-img{
+  width: 25%;
+  margin-top: 10%;
+}
+
+.firat-img{
+  width: 25%;
+  margin: 10% 10% 0 10%;
+}
+
+.izmer-img{
+  width: 35%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.aydin-img{
+  width: 40%;
+  margin-top: 5%;
+}
+
+
+/* about-page-1 */
+.first-about-h-cont{
+  text-align: center;
+}
+
+.second-about-h-cont{
+  text-align: center;
+}
+
+.second-about-text{
+  background-image: none;
+  -webkit-text-fill-color: #ec5242;
+}
+
+.first-about-p-cont{
+  background-color: #fff;
+  border-color: #d3d3d3;
+  padding: 5px;
+  margin-bottom: 3px;
+}
+
+.time-about-con{
+  padding-left: 13%;
+  padding-right: 13%;
+  margin-top: 6%;
+}
+
+.infromation-paragraph{
+  color:#272a31;
+  font-size: 13px;
+  text-align: center;
+}
+
+.email-about-ask{
+  text-decoration: underline;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 20%;
+}
+
+/* second-page-about */
+
+.second-about-page{
+  background-color: #fff;
+  width: 100%;
+  height: 420px;
+  text-align: center;
+}
+
+.about-p-logo{
+  color: #8d99ae;
+  font-weight: 600;
+}
+
+.about-logo{
+  width: 95%;
+  height: 250px;
+  border: 1px solid #d3d3d3;
+  margin-top: 5%;
+  padding-bottom: 5px;
+  margin-left: 2.5%;
+}
+
+.about-logo-img{
+  width: 100%;
+  height: 100%;
+}
+
+.about-second-page-hr{
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 0%;
+  border-color: #8d99ae;
+}
+
+/* third-about-page */
+
+.third-about-page{
+  text-align: center;
+  width: 100%;
+  height: 600px;
+  padding: 16px;
+}
+
+.third-about-confreneces{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about-conf-continer1{
+  background-color: #ec5242;
+  height: 200px;
+  width: 85%;
+  margin-left: 8%;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.about-first-con-img{
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0%;
+}
+
+.about-year-div{
+  position: relative;
+  top: 20%;
+}
+
+.about-conf-year{
+  color: #fff;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.about-descrption-div{
+  position: relative;
+  top: 10%;
+}
+
+.about-conf-descrption{
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
 }
