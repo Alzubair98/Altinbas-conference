@@ -1,22 +1,19 @@
-const navMenu = document.querySelector(".hamburger-button");
-const hiddenMenu = document.querySelector(".hidden-menu");
-const xbutton = document.querySelector(".menu-hamburger-button");
+const navMenu = document.querySelector('.hamburger-button');
+const hiddenMenu = document.querySelector('.hidden-menu');
+const xbutton = document.querySelector('.menu-hamburger-button');
 const fullBody = document.body;
 
+navMenu.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+  hiddenMenu.classList.toggle('active');
+  fullBody.classList.toggle('active');
+});
 
-navMenu.addEventListener("click", () => {
-    navMenu.classList.toggle("active")
-    hiddenMenu.classList.toggle("active")
-    fullBody.classList.toggle("active")
-})
-
-xbutton.addEventListener("click", ()=>  {
-    navMenu.classList.toggle("active")
-    hiddenMenu.classList.toggle("active")
-    fullBody.classList.toggle("active")
-})
-
-
+xbutton.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+  hiddenMenu.classList.toggle('active');
+  fullBody.classList.toggle('active');
+});
 
 const featureCards = `
 <div class="first-2-cards">
@@ -96,13 +93,10 @@ const featureCards = `
                             <p class="presenter-infromation">One of Altinbas Doctors Stuff</p>
                         </div>
                     </div>
-                </div>`
+                </div>`;
 
+const cardContiner = document.querySelector('.all-feature-speakers-cards');
 
-const cardContiner = document.querySelector(".all-feature-speakers-cards");
-
-
-window.addEventListener("load", () => {
-    cardContiner.innerHTML = featureCards
-})
-
+window.addEventListener('load', () => {
+  cardContiner.innerHTML = featureCards;
+});
