@@ -574,6 +574,10 @@ hr {
   height: 10%;
 }
 
+.desktop-about-altinlogo{
+  display: none;
+}
+
 /* Desktop-version */
 
 @media (min-width: 768px) {
@@ -738,7 +742,7 @@ hr {
   }
 
   .mobile-fourth-section {
-    height: auto;
+    display: none;
   }
 
   .main-program {
@@ -848,4 +852,18 @@ hr {
   .third-about-page {
     height: auto;
   }
+
+  .about-mobile-fifth-section{
+    background-color: #272a31;
+    color: #fff;
+  }
+
+  .desktop-about-altinlogo{
+    display: block;
+  }
+
+  .mobile-about-altinlogo{
+    display: none;
+  }
+
 }
