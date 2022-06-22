@@ -1,10 +1,18 @@
-body,html {
-  margin: 0%;
+body {
+  width: 100%;
+  margin: 0;
   overflow-x: hidden;
 }
-
+    /* problem */
 body.active{
   overflow: hidden;
+}
+
+#wrapper {
+  position: relative;
+
+  width: 100%;
+  overflow-x: hidden;
 }
 
 h1,
@@ -54,8 +62,9 @@ ul{
   background-image: url(images/mobile-bg.png);
   background-size: 100%;
   width: 100%;
+  padding: 20px;
   height: 480px;
-  padding: 3%;
+  /* padding: 3%; */
 }
 
 .hamburger-button {
@@ -164,12 +173,12 @@ ul{
   position: absolute;
   background-color: #272a31;
   transition: all 0.99s;
-  right: -100%;
-
+  right: -200%;
 }
 
 .hidden-menu.active{
-  position: fixed;
+  /* position: fixed; */
+  z-index: 1000;
   right: 0px;
 }
 
@@ -541,6 +550,10 @@ hr {
 
 @media (min-width: 768px) {
 
+  /* body{
+    overflow: auto;
+  } */
+ 
   .first-nav-bar{
     display: flex;
     width: 100%;
@@ -600,6 +613,7 @@ hr {
 
   .first-page-text-continer{
     margin: 4%;
+    width: 90%;
   }
 
   .first-text-cont{
@@ -669,14 +683,29 @@ hr {
   .first-2-cards{
     display: flex;
     flex-direction: row;
+    margin-left: 10%;
   }
 
   .mobile-third-page{
     gap: 5%;
   }
 
-  .presenter-img{
+  .images {
+    width: 30%;
+  }
+
+  .first-card{
+    gap: 4%;
     width: 50%;
+  }
+
+  .presenter-img{
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  .galip-img{
+    height: 350%;
   }
 
   .card-text{
