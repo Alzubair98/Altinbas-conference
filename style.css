@@ -1,16 +1,14 @@
 body {
   width: 100%;
   margin: 0;
-  overflow-x: hidden;
 }
-    /* problem */
+   
 body.active{
   overflow: hidden;
 }
 
 #wrapper {
   position: relative;
-
   width: 100%;
   overflow-x: hidden;
 }
@@ -377,7 +375,7 @@ hr {
 
 .mobile-fourth-section{
   width: 100%;
-  height: 500px;
+  height: 350px;
   background-color: #272a31;
   text-align: center;
   padding-top: 2%;
@@ -546,13 +544,38 @@ hr {
   display: none;
 }
 
+/* fifth-section */
+.mobile-fifth-section{
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  padding: 10%;
+  height: 300px;
+}
+
+.altin-bas-logo{
+  margin-top: -1%;
+  width: 30%;
+  height: 30%;
+}
+
+.paragraph-fourth-section{
+  height: 10%;
+}
+
 /* Desktop-version */
 
 @media (min-width: 768px) {
 
-  /* body{
+  .mobile-first-bage-continer{
+    height: auto;
+  }
+
+  #wrapper {
+    position: relative;
+    width: 100%;
     overflow: auto;
-  } */
+  }
  
   .first-nav-bar{
     display: flex;
@@ -710,6 +733,64 @@ hr {
 
   .card-text{
     margin-top: 5%;
+  }
+
+  .mobile-fourth-section{
+    height: auto;
+  }
+
+  .main-program{
+    margin-top: 2%;
+  }
+
+  .desktop-continer{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    justify-content: center;
+    margin-bottom: 2%;
+    position: relative;
+    top: -1rem;
+  }
+  .google-img {
+    width: 10%;
+    margin: 0;
+  }
+
+  .firat-img {
+    width: 8%;
+    margin: 0;
+  }
+
+  .microsoft-img {
+    width: 10%;
+    margin: 0;
+  }
+
+  .izmer-img {
+    width: 10%;
+    margin: 0;
+  }
+
+  .aydin-img {
+    width: 10%;
+    margin: 0;
+  }
+
+  .mobile-fifth-section{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 3%;
+    height: auto;
+  }
+
+  .altin-bas-logo{
+    margin-top: -1%;
+  }
+
+  .paragraph-fourth-section{
+    width: 25%;
   }
 
 
