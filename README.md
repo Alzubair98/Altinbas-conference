@@ -1,27 +1,27 @@
 
 # Project Name
-First capstone project in microverse 
+Altinbas Conference 2022 
+
 # Project Link
 https://alzubair98.github.io/first-capstone-project/
 
-> Description the project.
-this is the first capstone project where i will build a university portofilo
+# Description.
+Its a Project That Shows the Altinbas 2022 Conference Infromation
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS & JS
+
+# project image
+
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://alzubair98.github.io/first-capstone-project/)
-
-To get a local copy up and running follow these simple example steps.
-
+![](images/project-img.png)
 ## Authors
 
-👤 **Author1**
+👤 **Alzubair**
 
 - GitHub: https://github.com/Alzubair98
 - Twitter: https://twitter.com/FitZubair
@@ -40,9 +40,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- this project was inspired from the original project of Cindy Shin 
+  the link to the project (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 📝 License
 

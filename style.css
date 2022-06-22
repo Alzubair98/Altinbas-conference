@@ -745,7 +745,7 @@ hr {
     height: auto;
   }
 
-  .about-desktop-fourth-section{
+  .about-desktop-fourth-section {
     display: none;
   }
 
@@ -857,17 +857,16 @@ hr {
     height: auto;
   }
 
-  .about-mobile-fifth-section{
+  .about-mobile-fifth-section {
     background-color: #272a31;
     color: #fff;
   }
 
-  .desktop-about-altinlogo{
+  .desktop-about-altinlogo {
     display: block;
   }
 
-  .mobile-about-altinlogo{
+  .mobile-about-altinlogo {
     display: none;
   }
-
 }
