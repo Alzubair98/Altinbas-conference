@@ -742,6 +742,10 @@ hr {
   }
 
   .mobile-fourth-section {
+    height: auto;
+  }
+
+  .about-desktop-fourth-section{
     display: none;
   }
 
