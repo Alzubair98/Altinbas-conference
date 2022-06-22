@@ -1,5 +1,6 @@
-body {
+body,html {
   margin: 0%;
+  overflow-x: hidden;
 }
 
 body.active{
@@ -163,7 +164,8 @@ ul{
   position: absolute;
   background-color: #272a31;
   transition: all 0.99s;
-  right: -400px;
+  right: -100%;
+
 }
 
 .hidden-menu.active{
@@ -216,6 +218,12 @@ hr {
   margin-top: 2%;
   width: 10%;
   margin-left: 45%;
+}
+
+.programs-continer{
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
 }
 
 .first-program {
@@ -519,4 +527,162 @@ hr {
   color: #fff;
   font-weight: 500;
   font-size: 20px;
+}
+
+.desktop-nav{
+  display: none;
+}
+
+.second-page-desktop-paragraph{
+  display: none;
+}
+
+/* Desktop-version */
+
+@media (min-width: 768px) {
+
+  .first-nav-bar{
+    display: flex;
+    width: 100%;
+  }
+
+  .hidden-menu{
+    display: none;
+  }
+  
+  .hamburger-button{
+    display: none;
+  }
+
+  .desktop-nav{
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .desktop-nav-logo{
+    width: 5%;
+    margin-left: 10%;
+  }
+
+  .desktop-menus{
+    width: 50%;
+    display: flex;
+    gap: 5%;
+    margin-left: 30%;
+    margin-top: 1%;
+  }
+
+  .nav-text{
+    color: #8d99ae;
+    font-weight: 500;
+  }
+
+  .home-desktop-text{
+    color: #ec5242;
+  }
+
+  .nav-text{
+    margin-top: 1%;
+  }
+
+  .al-campaing-desktop-text{
+    color: #ec5242;
+    padding: 5px;
+    height: fit-content;
+    border: 3px solid #ec5242;
+    font-weight: 500;
+  }
+
+  .mobile-first-bage-continer{
+    background-size: 50% 100%;
+  }
+
+  .first-page-text-continer{
+    margin: 4%;
+  }
+
+  .first-text-cont{
+    margin-left: 10%;
+  }
+
+  .first-text{
+    font-size: 30px;
+  }
+
+  .second-text{
+    font-size: 40px;
+  }
+
+  .second-text{
+    width: 50%;
+  }
+
+  .first-p-cont{
+    margin: 0%;
+    width: 50%;
+    height: auto;
+  }
+
+  .time-of-the-confrenece{
+    margin-top: 2%;
+  }
+
+  .programs-continer{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+  }
+
+  .first-program{
+    flex-direction: column;
+    width: 20%;
+    height: 300px;
+  }
+
+  .program-icon{
+    height: 40px;
+  }
+
+  .program-name{
+    height: 30px;
+  }
+
+  .program-descrption{
+    width: 90%;
+    text-align: center;
+  }
+
+  .second-page-button{
+    display: none;
+  }
+
+  .second-page-desktop-paragraph{
+    display: flex;
+    text-decoration: underline;
+    color: white;
+    margin-top: 5%;
+    margin-left: 40%;
+    font-weight: 400;
+  }
+
+  .first-2-cards{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mobile-third-page{
+    gap: 5%;
+  }
+
+  .presenter-img{
+    width: 50%;
+  }
+
+  .card-text{
+    margin-top: 5%;
+  }
+
+
+
 }
