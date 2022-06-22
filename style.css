@@ -322,7 +322,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-bottom: 3%;
+  margin-bottom: 9%;
 }
 
 .main-program2 {
@@ -331,6 +331,7 @@ hr {
 
 .first-card {
   display: flex;
+  margin-bottom: 3%;
 }
 
 .images {
