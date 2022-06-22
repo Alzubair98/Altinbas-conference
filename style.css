@@ -60,7 +60,7 @@ ul{
   background-image: url(images/mobile-bg.png);
   background-size: 100%;
   width: 100%;
-  height: 480px;
+  height: auto;
   padding: 3%;
 }
 
@@ -208,7 +208,7 @@ ul{
   text-align: center;
   padding: 0% 2% 2% 2%;
   gap: 2%;
-  height: 700px;
+  height: auto;
 }
 
 .main-program {
@@ -238,6 +238,7 @@ hr {
   gap: 15px;
   background-color: #d3d3d326;
   padding: 2%;
+  margin-bottom: 2%;
 }
 
 .program-icon {
@@ -298,7 +299,7 @@ hr {
 .mobile-third-page {
   background-color: #fff;
   width: 100%;
-  height: 900px;
+  height: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -310,6 +311,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-bottom: 3%;
 }
 
 .main-program2 {
@@ -374,7 +376,7 @@ hr {
 
 .mobile-fourth-section{
   width: 100%;
-  height: 350px;
+  height: auto;
   background-color: #272a31;
   text-align: center;
   padding-top: 2%;
@@ -555,7 +557,7 @@ hr {
   justify-content: center;
   gap: 5%;
   padding: 10%;
-  height: 300px;
+  height: auto;
 }
 
 .altin-bas-logo{
@@ -607,11 +609,13 @@ hr {
   }
 
   .desktop-menus{
-    width: 50%;
+    width: 70%;
     display: flex;
-    gap: 5%;
-    margin-left: 30%;
+    justify-content: end;
+    gap: 3%;
+    position: relative;
     margin-top: 1%;
+    align-items: center;
   }
 
   .nav-text{
@@ -654,9 +658,6 @@ hr {
 
   .second-text{
     font-size: 40px;
-  }
-
-  .second-text{
     width: 50%;
   }
 
@@ -712,6 +713,7 @@ hr {
     display: flex;
     flex-direction: row;
     margin-left: 10%;
+    margin-bottom: 3%;
   }
 
   .mobile-third-page{
@@ -720,6 +722,7 @@ hr {
 
   .images {
     width: 30%;
+    height: 100%;
   }
 
   .first-card{
@@ -730,10 +733,7 @@ hr {
   .presenter-img{
     width: 90%;
     margin-left: 10%;
-  }
-
-  .galip-img{
-    height: 350%;
+    height: 100%;
   }
 
   .card-text{
@@ -798,6 +798,56 @@ hr {
     width: 25%;
   }
 
+  /* about-section */
+  .about-first-text{
+    display: none;
+  }
 
+  .second-about-text{
+    width: 50%;
+    margin-left: 25%;
+  }
 
+  .first-about-p-cont{
+    margin-right: 0;
+    margin-left: 25%;
+  }
+
+  .email-about-ask{
+    margin-left: 40%;
+  }
+
+  .about-logo{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1%;
+  }
+  
+  .about-logo-img{
+    width: 50%;
+  }
+
+  .about-second-page-hr{
+    margin: 2%;
+    margin-left: 0;
+  }
+  
+  .about-desktop-continer{
+    display: flex;
+    height: auto;
+  }
+
+  .about-conf-continer1{
+    margin-left: 19%;
+    margin-top: 3%;
+    width: 30%;
+  }
+
+  .about-conf-continer2{
+    margin-left: 3%;
+  }
+
+  .third-about-page{
+    height: auto;
+  }
 }
