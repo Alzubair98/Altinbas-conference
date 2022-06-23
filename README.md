@@ -27,6 +27,8 @@ Its a Project That Shows the Altinbas 2022 Conference Infromation
 - Twitter: https://twitter.com/FitZubair
 - LinkedIn: https://www.linkedin.com/in/alzubair-alqaraghuli-272918233/
 
+# link to the explination video
+https://www.loom.com/share/a0082d739b354bc0b10e08b086ac4541
 
 ## 🤝 Contributing
 
