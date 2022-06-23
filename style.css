@@ -1,0 +1,872 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body.active {
+  overflow: hidden;
+}
+
+#wrapper {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.first-nav-bar {
+  display: none;
+  width: 100%;
+  height: 10%;
+  background-color: #272a31;
+  margin-top: 0;
+  justify-content: end;
+  padding: 0%;
+}
+
+.first-elements-continar {
+  display: flex;
+  justify-content: end;
+  gap: 3%;
+  margin-right: 10%;
+  width: 70%;
+}
+
+.first-nav-bar-icons {
+  color: #fff;
+}
+
+.first-nav-bar-tags {
+  color: #fff;
+}
+
+/* mobile-first-page  */
+
+.mobile-first-bage-continer {
+  background-image: url(images/mobile-bg.png);
+  background-size: 100%;
+  width: 100%;
+  height: auto;
+  padding: 3%;
+}
+
+.hamburger-button {
+  width: 30px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.hamburger-button > span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  border-radius: 9999px;
+  background-color: #272a31;
+}
+
+.hamburger-button,
+.hamburger-button > span {
+  transition: all 0.4s ease-in-out;
+}
+
+.hamburger-button > span:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.hamburger-button.active {
+  transition-delay: 0.8s;
+  transform: rotate(45deg);
+}
+
+.hamburger-button.active > span:nth-child(2) {
+  width: 0;
+}
+
+.hamburger-button.active > span:nth-child(1),
+.hamburger-button.active > span:nth-child(3) {
+  transition-delay: 0.4s;
+}
+
+.hamburger-button.active > span:nth-child(1) {
+  transform: translateY(9px);
+}
+
+.hamburger-button.active > span:nth-child(3) {
+  transform: translateY(-10px) rotate(90deg);
+}
+
+.first-page-text-continer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 8%;
+  gap: 0%;
+}
+
+.first-text {
+  font-weight: 300;
+  color: #ec5242;
+  margin-bottom: 0%;
+  font-size: 20px;
+}
+
+.second-text {
+  font-family: "COCOGOOSE", sans-serif;
+  margin-top: 1%;
+  font-weight: 700;
+  color: #ec5242;
+  font-size: 30px;
+  background-image: url(images/fire-bg.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: 60% 68%;
+}
+
+.first-p-cont {
+  padding-left: 2px;
+  width: 90%;
+  margin-left: 5%;
+  border: 1px solid white;
+  background-color: #f6f6f7;
+  margin-top: 5%;
+}
+
+.first-paragraph {
+  font-family: 'Lato', sans-serif;
+}
+
+.time-paragraph {
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #8d99ae;
+}
+
+.place-paragraph {
+  font-weight: 500;
+  font-size: 18px;
+  color: #8d99ae;
+}
+
+/* hidden-menu */
+
+.hidden-menu {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  background-color: #272a31;
+  transition: all 0.99s;
+  right: -200%;
+}
+
+.about-hidden-menu {
+  left: -200%;
+}
+
+.about-hidden-menu.active {
+  left: 0;
+  height: 100%;
+}
+
+.hidden-menu.active {
+  z-index: 1000;
+  right: 0;
+  height: 100%;
+}
+
+.menu-hamburger-button {
+  margin-top: 5%;
+  margin-left: 90%;
+  color: #d3d3d3;
+}
+
+.line-hidden-menu {
+  width: 100%;
+  border-color: #fff;
+  margin-left: 0%;
+}
+
+.hidden-menu-text {
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 30px;
+  margin-left: 1%;
+  color: #fff;
+}
+
+/* mobile-second-page */
+
+.mobile-second-page-continer {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/program-bg.jpg);
+  background-size: 100%;
+  text-align: center;
+  padding: 0% 2% 2% 2%;
+  gap: 2%;
+  height: auto;
+}
+
+.main-program {
+  margin-top: 4%;
+  color: white;
+  margin-bottom: 0%;
+}
+
+hr {
+  border-color: #ec5242;
+  border-width: 3px;
+  border-style: solid none none none;
+  margin-top: 2%;
+  width: 10%;
+  margin-left: 45%;
+}
+
+.programs-continer {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+.first-program {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+  background-color: #d3d3d326;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+.program-icon {
+  height: 70%;
+  color: white;
+  font-size: 2rem;
+  margin-top: 7%;
+}
+
+.program-name {
+  color: #ec5242;
+  height: 70%;
+  margin-top: 7%;
+}
+
+.program-descrption {
+  color: white;
+  font-size: 13px;
+  text-align: left;
+  width: 60%;
+  margin-bottom: 0%;
+  font-weight: 400;
+}
+
+.first-descrption {
+  margin-left: 6%;
+}
+
+.second-descrption {
+  margin-left: 4%;
+}
+
+.third-descrption {
+  margin-left: -1%;
+}
+
+.forth-descrption {
+  margin-left: 6%;
+}
+
+.foruth-program {
+  margin-left: 5%;
+}
+
+.second-page-button {
+  background-color: #ec5242;
+  border: none;
+  width: 70%;
+  height: 3rem;
+  margin-left: 15%;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+/* third-page */
+
+.mobile-third-page {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0% 2% 2% 2%;
+  gap: 2%;
+}
+
+.first-2-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 9%;
+}
+
+.main-program2 {
+  color: black;
+}
+
+.first-card {
+  display: flex;
+  margin-bottom: 3%;
+}
+
+.images {
+  width: 40%;
+  height: 30%;
+  position: relative;
+}
+
+.square-img {
+  width: 40%;
+  left: 0;
+  z-index: 0;
+  position: absolute;
+}
+
+.presenter-img {
+  width: 80%;
+  position: relative;
+  top: 15px;
+  left: -1px;
+}
+
+.presenter-name {
+  text-align: left;
+  font-size: 18px;
+  color: #272a31;
+  font-weight: 800;
+}
+
+.presenter-descreption {
+  text-align: left;
+  font-size: 13px;
+  color: #ec5242;
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  margin: 1% 0% 1% 0%;
+}
+
+.text-divider {
+  margin: 0;
+  border-color: #272a31;
+}
+
+.presenter-infromation {
+  text-align: left;
+  font-size: 13px;
+  color: #272a31;
+  font-style: normal;
+  font-family: 'Lato', sans-serif;
+  margin: 1% 0% 1% 0%;
+}
+
+/* fourth-page */
+
+.mobile-fourth-section {
+  width: 100%;
+  height: auto;
+  background-color: #272a31;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.google-img {
+  width: 25%;
+  margin-top: 10%;
+}
+
+.microsoft-img {
+  width: 25%;
+  margin-top: 10%;
+}
+
+.firat-img {
+  width: 25%;
+  margin: 10% 10% 0 10%;
+}
+
+.izmer-img {
+  width: 35%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.aydin-img {
+  width: 40%;
+  margin-top: 5%;
+}
+
+/* about-page-1 */
+.first-about-h-cont {
+  text-align: center;
+}
+
+.second-about-h-cont {
+  text-align: center;
+}
+
+.second-about-text {
+  background-image: none;
+  -webkit-text-fill-color: #ec5242;
+}
+
+.first-about-p-cont {
+  background-color: #fff;
+  border-color: #d3d3d3;
+  padding: 5px;
+  margin-bottom: 3px;
+}
+
+.time-about-con {
+  padding-left: 13%;
+  padding-right: 13%;
+  margin-top: 6%;
+}
+
+.infromation-paragraph {
+  color: #272a31;
+  font-size: 13px;
+  text-align: center;
+}
+
+.email-about-ask {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 20%;
+}
+
+.about-foruth-section {
+  width: 100%;
+  height: 350px;
+}
+
+/* second-page-about */
+
+.second-about-page {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.about-p-logo {
+  color: #8d99ae;
+  font-weight: 600;
+}
+
+.about-logo {
+  width: 95%;
+  height: 250px;
+  border: 1px solid #d3d3d3;
+  margin-top: 5%;
+  padding-bottom: 5px;
+  margin-left: 2.5%;
+}
+
+.about-logo-img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-second-page-hr {
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 0%;
+  border-color: #8d99ae;
+}
+
+/* third-about-page */
+
+.third-about-page {
+  text-align: center;
+  width: 100%;
+  height: 600px;
+  padding: 16px;
+}
+
+.third-about-confreneces {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about-conf-continer1 {
+  background-color: #ec5242;
+  height: 200px;
+  width: 85%;
+  margin-left: 8%;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.about-first-con-img {
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0%;
+}
+
+.about-year-div {
+  position: relative;
+  top: 20%;
+}
+
+.about-conf-year {
+  color: #fff;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.about-descrption-div {
+  position: relative;
+  top: 10%;
+}
+
+.about-conf-descrption {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.second-page-desktop-paragraph {
+  display: none;
+}
+
+/* fifth-section */
+.mobile-fifth-section {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  padding: 10%;
+  height: auto;
+}
+
+.altin-bas-logo {
+  margin-top: -1%;
+  width: 30%;
+  height: 30%;
+}
+
+.paragraph-fourth-section {
+  height: 10%;
+}
+
+.desktop-about-altinlogo {
+  display: none;
+}
+
+/* Desktop-version */
+
+@media (min-width: 768px) {
+  .mobile-first-bage-continer {
+    height: auto;
+    background-size: 50% 100%;
+  }
+
+  #wrapper {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+  }
+
+  .first-nav-bar {
+    display: flex;
+    width: 100%;
+  }
+
+  .hidden-menu {
+    display: none;
+  }
+
+  .hamburger-button {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .desktop-nav-logo {
+    width: 5%;
+    margin-left: 10%;
+  }
+
+  .desktop-menus {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    gap: 3%;
+    position: relative;
+    margin-top: 1%;
+    align-items: center;
+  }
+
+  .nav-text {
+    color: #8d99ae;
+    font-weight: 500;
+    margin-top: 1%;
+  }
+
+  .home-desktop-text {
+    color: #ec5242;
+  }
+
+  .al-campaing-desktop-text {
+    color: #ec5242;
+    padding: 5px;
+    height: auto;
+    border: 3px solid #ec5242;
+    font-weight: 500;
+  }
+
+  .first-page-text-continer {
+    margin: 4%;
+    width: 90%;
+  }
+
+  .first-text-cont {
+    margin-left: 10%;
+  }
+
+  .first-text {
+    font-size: 30px;
+  }
+
+  .second-text {
+    font-size: 40px;
+    width: 50%;
+  }
+
+  .first-p-cont {
+    margin: 0%;
+    width: 50%;
+    height: auto;
+  }
+
+  .time-of-the-confrenece {
+    margin-top: 2%;
+  }
+
+  .programs-continer {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+  }
+
+  .first-program {
+    flex-direction: column;
+    width: 20%;
+    height: 300px;
+  }
+
+  .program-icon {
+    height: 40px;
+  }
+
+  .program-name {
+    height: 30px;
+  }
+
+  .program-descrption {
+    width: 90%;
+    text-align: center;
+  }
+
+  .second-page-button {
+    display: none;
+  }
+
+  .second-page-desktop-paragraph {
+    display: flex;
+    text-decoration: underline;
+    color: white;
+    margin-top: 5%;
+    margin-left: 40%;
+    font-weight: 400;
+  }
+
+  .first-2-cards {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-bottom: 3%;
+  }
+
+  .mobile-third-page {
+    gap: 5%;
+  }
+
+  .images {
+    width: 30%;
+    height: 100%;
+  }
+
+  .first-card {
+    gap: 4%;
+    width: 50%;
+  }
+
+  .presenter-img {
+    width: 90%;
+    margin-left: 10%;
+    height: 100%;
+  }
+
+  .card-text {
+    margin-top: 5%;
+  }
+
+  .mobile-fourth-section {
+    height: auto;
+  }
+
+  .about-desktop-fourth-section {
+    display: none;
+  }
+
+  .main-program {
+    margin-top: 2%;
+  }
+
+  .desktop-continer {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    justify-content: center;
+    margin-bottom: 2%;
+    position: relative;
+    top: -1rem;
+  }
+
+  .google-img {
+    width: 10%;
+    margin: 0;
+  }
+
+  .firat-img {
+    width: 8%;
+    margin: 0;
+  }
+
+  .microsoft-img {
+    width: 10%;
+    margin: 0;
+  }
+
+  .izmer-img {
+    width: 10%;
+    margin: 0;
+  }
+
+  .aydin-img {
+    width: 10%;
+    margin: 0;
+  }
+
+  .mobile-fifth-section {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 3%;
+    height: auto;
+  }
+
+  .altin-bas-logo {
+    margin-top: -1%;
+  }
+
+  .paragraph-fourth-section {
+    width: 25%;
+  }
+
+  /* about-section */
+  .about-first-text {
+    display: none;
+  }
+
+  .second-about-text {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .first-about-p-cont {
+    margin-right: 0;
+    margin-left: 25%;
+  }
+
+  .email-about-ask {
+    margin-left: 40%;
+  }
+
+  .about-logo {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1%;
+  }
+
+  .about-logo-img {
+    width: 50%;
+  }
+
+  .about-second-page-hr {
+    margin: 2%;
+    margin-left: 0;
+  }
+
+  .about-desktop-continer {
+    display: flex;
+    height: auto;
+  }
+
+  .about-conf-continer1 {
+    margin-left: 19%;
+    margin-top: 3%;
+    width: 30%;
+  }
+
+  .about-conf-continer2 {
+    margin-left: 3%;
+  }
+
+  .third-about-page {
+    height: auto;
+  }
+
+  .about-mobile-fifth-section {
+    background-color: #272a31;
+    color: #fff;
+  }
+
+  .desktop-about-altinlogo {
+    display: block;
+  }
+
+  .mobile-about-altinlogo {
+    display: none;
+  }
+}
