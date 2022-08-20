@@ -16,7 +16,7 @@ Its a Project That Shows the Altinbas 2022 Conference Infromation
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://alzubair98.github.io/first-capstone-project/)
+[Live Demo Link]( https://alzubair98.github.io/Altinbas-conference/)
 ![](images/project-img.png)
 ## Authors
 
