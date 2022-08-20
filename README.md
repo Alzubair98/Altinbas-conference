@@ -3,7 +3,6 @@
 Altinbas Conference 2022 
 
 # Project Link
-https://alzubair98.github.io/first-capstone-project/
 
 # Description.
 Its a Project That Shows the Altinbas 2022 Conference Infromation
